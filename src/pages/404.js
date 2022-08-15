@@ -6,17 +6,20 @@ class NotFoundPage extends React.Component {
     return (
       <Layout location={this.props.location}>
         <main>
-          <h1>Not Found</h1>
-          <p>I haven’t written this post yet. Will you help me write it?</p>
+          <h1>Bulunamadı</h1>
+          <p>Böyle bir yazı daha yazmadık, yazalım mı?</p>
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/6IJB0aD8gSA"
+            src="https://www.youtube.com/watch?v=AA4deEZjnBA"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullscreen
           />
-          <p>Too doo doo doo doo doo doo doo</p>
+          <p>
+            It's hard, hard not to sit on your hands And bury your head in the
+            sand
+          </p>
         </main>
       </Layout>
     );

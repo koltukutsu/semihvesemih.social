@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Overreacted',
-    author: 'Dan Abramov',
-    description: 'Personal blog by Dan Abramov. I explain with words and code.',
-    siteUrl: 'https://overreacted.io',
+    title: 'SemihveSemih',
+    author: 'Mehmet Semih BABACAN',
+    description: 'Semih ve Semih blog sayfası.',
+    siteUrl: 'https://semihvesemih.social',
     social: {
       twitter: '@dan_abramov',
     },
@@ -80,7 +80,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 const siteUrl = site.siteMetadata.siteUrl;
                 const postText = `
-                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at overreacted.io. You can read it online by <a href="${siteUrl +
+                <div style="margin-top=55px; font-style: italic;">(Bu yazı Semihlerden biri tarafından semihvesemih.social'da paylaşıldı. Online olarak buradan okuyabilirsiniz <a href="${siteUrl +
                   edge.node.fields.slug}">clicking here</a>.)</div>
               `;
 
@@ -126,7 +126,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Dan Abramov's Overreacted Blog RSS Feed",
+            title: "Semih ve Semih'in Blog RSS Feedi",
           },
         ],
       },
@@ -134,7 +134,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-ebook`,
       options: {
-        filename: 'overreacted-ebook.epub',
+        filename: 'semihvesemih-ebook.epub',
         query: `
           {
             site {
@@ -165,8 +165,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Overreacted`,
-        short_name: `Overreacted`,
+        name: `SemihveSemih`,
+        short_name: `SemihveSemih`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffa7c4`,

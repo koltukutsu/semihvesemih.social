@@ -9,11 +9,8 @@ class Thanks extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <main>
-          <h1>Thank you for subscribing.</h1>
-          <p>
-            You are now confirmed. You can expect to receive emails as I create
-            new content.
-          </p>
+          <h1>Takip Ettiğiniz İçin Teşekkürler.</h1>
+          <p>Şuan onaylandınız. Artık Semihlerden haber alabilirsiniz.</p>
         </main>
       </Layout>
     );

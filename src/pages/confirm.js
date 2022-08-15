@@ -9,10 +9,10 @@ class Confirm extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <main>
-          <h1>Just one more thing...</h1>
+          <h1>Yalnızca birşey daha...</h1>
           <p>
-            Thank you for subscribing. You will need to check your inbox and
-            confirm your subscription.
+            Talkip ettiğiniz için teşekkürler. Posta kutunuzu üyeliğinizi
+            onaylamanız için kontrol etmeniz gerekecek.
           </p>
         </main>
       </Layout>

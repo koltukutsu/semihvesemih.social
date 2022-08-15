@@ -26,13 +26,13 @@ class BlogIndexTemplate extends React.Component {
         <main>
           {langKey !== 'en' && langKey !== 'ru' && (
             <Panel>
-              These articles have been{' '}
+              Bu yazıların{' '}
               <a
                 href="https://github.com/gaearon/overreacted.io#contributing-translations"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                translated by the community
+                başka dildeki halleri de var
               </a>
               .
             </Panel>
